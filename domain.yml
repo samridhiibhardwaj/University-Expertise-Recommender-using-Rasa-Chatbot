@@ -1,0 +1,268 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- PROFESSOR SONDIPON ADHIKARI:
+    use_entities: true
+- Professor MARTIN BACHE:
+    use_entities: true
+- Professor STEVE BROWN:
+    use_entities: true
+- PROFESSOR TIM CLAYPOLE:
+    use_entities: true
+- PROFESSOR MARK CROSS:
+    use_entities: true
+- PROFESSOR DAVIDE DEGANELLO:
+    use_entities: true
+- PROFESSOR WULF DETTMER:
+    use_entities: true
+- PROFESSOR JAMES DURRANT:
+    use_entities: true
+- PROFESSOR MICHAEL G. EDWARDS:
+    use_entities: true
+- PROFESSOR YUNTIAN FENG:
+    use_entities: true
+- PROFESSOR MICHAEL FRISWELL:
+    use_entities: true
+- PROFESSOR DAVID GETHIN:
+    use_entities: true
+- PROFESSOR ANTONIO GIL:
+    use_entities: true
+- PROFESSOR OUBAY HASSAN:
+    use_entities: true
+- PROFESSOR NIDAL HILAL:
+    use_entities: true
+- PROFESSOR PAUL HOLLAND:
+    use_entities: true
+- PROFESSOR PETER HOLLIMAN:
+    use_entities: true
+- PROFESSOR RICHARD JOHNSTON:
+    use_entities: true
+- PROFESSOR KAROL KALNA:
+    use_entities: true
+- PROFESSOR HARSHINIE KARUNARATHNA:
+    use_entities: true
+- PROFESSOR ROBERT LANCASTER:
+    use_entities: true
+- PROFESSOR NICHOLAS LAVERY:
+    use_entities: true
+- PROFESSOR ARTHUR LEES:
+    use_entities: true
+- PROFESSOR ROLAND LEWIS:
+    use_entities: true
+- PROFESSOR CHENFENG LI:
+    use_entities: true
+- PROFESSOR LIJIE LI:
+    use_entities: true
+- PROFESSOR SERENA MARGADONNA:
+    use_entities: true
+- PROFESSOR IAN MASTERS:
+    use_entities: true
+- PROFESSOR AMIT MEHTA:
+    use_entities: true
+- PROFESSOR KENNETH MORGAN:
+    use_entities: true
+- PROFESSOR DAVID PENNEY:
+    use_entities: true
+- PROFESSOR DJORDJE PERIC:
+    use_entities: true
+- PROFESSOR CAMERON PLEYDELL-PEARCE:
+    use_entities: true
+- PROFESSOR PAUL REES:
+    use_entities: true
+- PROFESSOR DOMINIC REEVE:
+    use_entities: true
+- PROFESSOR JAMES SULLIVAN:
+    use_entities: true
+- PROFESSOR VINCENT TENG:
+    use_entities: true
+- PROFESSOR TRYSTAN WATSON:
+    use_entities: true
+- PROFESSOR MARK WHITTAKER:
+    use_entities: true
+- PROFESSOR RHODRI WILLIAMS:
+    use_entities: true
+- PROFESSOR DAVID WORSLEY:
+    use_entities: true
+- PROFESSOR_STEVE_BROWN:
+    use_entities: true
+- PROFESSOR_RICHARD_JOHNSTON:
+    use_entities: true
+- PROFESSOR_SERENA_MARGADONNA:
+    use_entities: true
+- PROFESSOR_SONDIPON_ADHIKARI:
+    use_entities: true
+- PROFESSOR_YUNTIAN_FENG:
+    use_entities: true
+- PROFESSOR_HARSHINIE_KARUNARATHNA:
+    use_entities: true
+- PROFESSOR_LIJIE_LI:
+    use_entities: true
+- PROFESSOR_ANTONIO_GIL:
+    use_entities: true
+- PROFESSOR_ROLAND_LEWIS:
+    use_entities: true
+- PROFESSOR_MARK_CROSS:
+    use_entities: true
+- PROFESSOR_KAROL_KALNA:
+    use_entities: true
+- PROFESSOR_NIDAL_HILAL:
+    use_entities: true
+- PROFESSOR_DJORDJE_PERIC:
+    use_entities: true
+- PROFESSOR_JAMES_DURRANT:
+    use_entities: true
+- PROFESSOR_TIM_CLAYPOLE:
+    use_entities: true
+- PROFESSOR_PAUL_HOLLAND:
+    use_entities: true
+- PROFESSOR_MARTIN_BACHE:
+    use_entities: true
+- PROFESSOR_AMIT_MEHTA:
+    use_entities: true
+- PROFESSOR_KENNETH_MORGAN:
+    use_entities: true
+- PROFESSOR_MICHAEL_G._EDWARDS:
+    use_entities: true
+- PROFESSOR_DAVID_PENNEY:
+    use_entities: true
+- PROFESSOR_DAVIDE_DEGANELLO:
+    use_entities: true
+- PROFESSOR_IAN_MASTERS:
+    use_entities: true
+- PROFESSOR_WULF_DETTMER:
+    use_entities: true
+- PROFESSOR_CHENFENG_LI:
+    use_entities: true
+- PROFESSOR_OUBAY_HASSAN:
+    use_entities: true
+- PROFESSOR_PETER_HOLLIMAN:
+    use_entities: true
+- PROFESSOR_ROBERT_LANCASTER:
+    use_entities: true
+- PROFESSOR_NICHOLAS_LAVERY:
+    use_entities: true
+- PROFESSOR_ARTHUR_LEES:
+    use_entities: true
+- PROFESSOR_MICHAEL_FRISWELL:
+    use_entities: true
+- PROFESSOR_DAVID_GETHIN:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_PROFESSOR_SONDIPON_ADHIKARI:
+  - text: PROFESSOR SONDIPON ADHIKARI
+  utter_PROFESSOR_MARTIN_BACHE:
+  - text: PROFESSOR MARTIN BACHE
+  utter_PROFESSOR_STEVE_BROWN:
+  - text: PROFESSOR STEVE BROWN
+  utter_PROFESSOR_TIM_CLAYPOLE:
+  - text: PROFESSOR TIM CLAYPOLE
+  utter_PROFESSOR_MARK_CROSS:
+  - text: PROFESSOR MARK CROSS
+  utter_PROFESSOR_DAVIDE_DEGANELLO:
+  - text: PROFESSOR DAVIDE DEGANELLO
+  utter_PROFESSOR_WULF_DETTMER:
+  - text: PROFESSOR WULF DETTMER
+  utter_PROFESSOR_JAMES_DURRANT:
+  - text: PROFESSOR JAMES DURRANT
+  utter_PROFESSOR_MICHAEL_G._EDWARDS:
+  - text: PROFESSOR MICHAEL G. EDWARDS
+  utter_PROFESSOR_YUNTIAN_FENG:
+  - text: PROFESSOR YUNTIAN FENG
+  utter_PROFESSOR_MICHAEL_FRISWELL:
+  - text: PROFESSOR MICHAEL FRISWELL
+  utter_PROFESSOR_DAVID_GETHIN:
+  - text: PROFESSOR DAVID GETHIN
+  utter_PROFESSOR_ANTONIO_GIL:
+  - text: PROFESSOR ANTONIO GIL
+  utter_PROFESSOR_OUBAY_HASSAN:
+  - text: PROFESSOR OUBAY HASSAN
+  utter_PROFESSOR_NIDAL_HILAL:
+  - text: PROFESSOR NIDAL HILAL
+  utter_PROFESSOR_PAUL_HOLLAND:
+  - text: PROFESSOR PAUL HOLLAND
+  utter_PROFESSOR_PETER_HOLLIMAN:
+  - text: PROFESSOR PETER HOLLIMAN
+  utter_PROFESSOR_RICHARD_JOHNSTON:
+  - text: PROFESSOR RICHARD JOHNSTON
+  utter_PROFESSOR_KAROL_KALNA:
+  - text: PROFESSOR KAROL KALNA
+  utter_PROFESSOR_HARSHINIE_KARUNARATHNA:
+  - text: PROFESSOR HARSHINIE KARUNARATHNA
+  utter_PROFESSOR_ROBERT_LANCASTER:
+  - text: PROFESSOR ROBERT LANCASTER
+  utter_PROFESSOR_NICHOLAS_LAVERY:
+  - text: PROFESSOR NICHOLAS LAVERY
+  utter_PROFESSOR_ARTHUR_LEES:
+  - text: PROFESSOR ARTHUR LEES
+  utter_PROFESSOR_ROLAND_LEWIS:
+  - text: PROFESSOR ROLAND LEWIS
+  utter_PROFESSOR_CHENFENG_LI:
+  - text: PROFESSOR CHENFENG LI
+  utter_PROFESSOR_LIJIE_LI:
+  - text: PROFESSOR LIJIE LI
+  utter_PROFESSOR_SERENA_MARGADONNA:
+  - text: PROFESSOR SERENA MARGADONNA
+  utter_PROFESSOR_IAN_MASTERS:
+  - text: PROFESSOR IAN MASTERS
+  utter_PROFESSOR_AMIT_MEHTA:
+  - text: PROFESSOR AMIT MEHTA
+  utter_PROFESSOR_KENNETH_MORGAN:
+  - text: PROFESSOR KENNETH MORGAN
+  utter_PROFESSOR_DAVID_PENNEY:
+  - text: PROFESSOR DAVID PENNEY
+  utter_PROFESSOR_DJORDJE_PERIC:
+  - text: PROFESSOR DJORDJE PERIC
+  utter_PROFESSOR_CAMERON_PLEYDELL-PEARCE:
+  - text: PROFESSOR CAMERON PLEYDELL-PEARCE
+  utter_PROFESSOR_PAUL_REES:
+  - text: PROFESSOR PAUL REES
+  utter_PROFESSOR_DOMINIC_REEVE:
+  - text: PROFESSOR DOMINIC REEVE
+  utter_ PROFESSOR_JAMES_SULLIVAN:
+  - text: ' PROFESSOR JAMES SULLIVAN'
+  utter_PROFESSOR_VINCENT_TENG:
+  - text: PROFESSOR VINCENT TENG
+  utter_PROFESSOR_TRYSTAN_WATSON:
+  - text: PROFESSOR TRYSTAN WATSON
+  utter_PROFESSOR_MARK_WHITTAKER:
+  - text: PROFESSOR MARK WHITTAKER
+  utter_PROFESSOR_RHODRI_WILLIAMS:
+  - text: PROFESSOR RHODRI WILLIAMS
+  utter_PROFESSOR_DAVID_WORSLEY:
+  - text: PROFESSOR DAVID WORSLEY
+actions: []
+forms: {}
+e2e_actions: []
